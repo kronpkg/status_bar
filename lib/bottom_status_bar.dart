@@ -3,6 +3,11 @@
 /// More dartdocs go here.
 library bottom_status_bar;
 
+export 'src/hinter.dart';
 export 'src/status_bar.dart';
+export 'src/status_bar.dart';
+export 'src/status_bar_initializer.dart';
 
-// TODO: Export any libraries intended for clients of this package.
+/// StatusBarInitializer - parent widget of screen with statusBar
+/// StatusBar - widget which show hint
+/// Hinter - widget that wrap hinting child
