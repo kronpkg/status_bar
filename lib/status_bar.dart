@@ -5,9 +5,11 @@ library bottom_status_bar;
 
 export 'src/hinter.dart';
 export 'src/status_bar.dart';
-export 'src/status_bar.dart';
+export 'src/status_bar_controller.dart';
 export 'src/status_bar_initializer.dart';
 
-/// StatusBarInitializer - parent widget of screen with statusBar
-/// StatusBar - widget which show hint
-/// Hinter - widget that wrap hinting child
+/// * StatusBarInitializer - parent widget of screen with statusBar
+/// * StatusBarController singleton class which makes possible to show message in
+/// StatusBar programmatically in any place.
+/// * StatusBar - widget which show hint
+/// * Hinter - widget that wrap hinting child
