@@ -5,12 +5,15 @@ import 'status_bar_controller.dart';
 class StatusBar extends StatelessWidget {
   const StatusBar({
     Key? key,
+    this.height = 30,
   }) : super(key: key);
+
+  final double height;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 30,
+      height: height,
       // margin: EdgeInsets.only(top: 6),
       padding: const EdgeInsets.all(4),
       decoration: BoxDecoration(
