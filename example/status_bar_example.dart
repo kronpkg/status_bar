@@ -1,7 +1,5 @@
-import 'package:bottom_status_bar/bottom_status_bar.dart';
-import 'package:bottom_status_bar/src/hinter.dart';
-import 'package:bottom_status_bar/src/status_bar_initializer.dart';
 import 'package:flutter/material.dart';
+import 'package:status_bar/status_bar.dart';
 
 void main() {
   runApp(

@@ -1,5 +1,6 @@
-import 'package:bottom_status_bar/src/status_bar_controller.dart';
 import 'package:flutter/material.dart';
+
+import 'status_bar_controller.dart';
 
 class StatusBar extends StatelessWidget {
   const StatusBar({
